@@ -1,0 +1,43 @@
+<svg viewBox="0 0 800 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#141a28"/>
+      <stop offset="1" stop-color="#0c111b"/>
+    </linearGradient>
+    <linearGradient id="acc" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#00ADD8"/>
+      <stop offset="1" stop-color="#00ADD8" stop-opacity="0.65"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="300" rx="18" fill="url(#bg)"/>
+  <rect width="800" height="300" rx="18" fill="none" stroke="#ffffff" stroke-opacity="0.07" stroke-width="2"/>
+
+  <!-- watermark initial -->
+  <text x="760" y="276" text-anchor="end" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-weight="bold"
+        font-size="230" fill="#00ADD8" fill-opacity="0.08">G</text>
+
+  <!-- accent bar -->
+  <rect x="26" y="34" width="8" height="232" rx="4" fill="url(#acc)"/>
+
+  <!-- lang chip -->
+  <g transform="translate(54,44)">
+    <rect x="0" y="0" width="52" height="28" rx="14" fill="#00ADD8" fill-opacity="0.16" stroke="#00ADD8" stroke-opacity="0.6" stroke-width="1.2"/>
+    <circle cx="18" cy="14" r="5" fill="#00ADD8"/>
+    <text x="30" y="19" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" fill="#e8ecf4">Go</text>
+  </g>
+
+  <!-- title -->
+  <text x="54" y="138" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-weight="bold" font-size="42" fill="#f4f7fc">golang-proxy</text>
+  <rect x="56" y="152" width="120" height="5" rx="2.5" fill="#00ADD8"/>
+
+  <!-- tagline -->
+  <text x="54" y="190" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="20" fill="#aeb8c8">HTTP proxy · rate-limit · IP lists · metrics</text>
+
+  <!-- tags -->
+  <g transform="translate(54,232)"><rect x="0" y="0" width="46" height="30" rx="15" fill="#ffffff" fill-opacity="0.08" stroke="#00ADD8" stroke-opacity="0.55" stroke-width="1.2"/><text x="23" y="20" text-anchor="middle" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="15" fill="#e8ecf4">Go</text></g>
+    <g transform="translate(112,232)"><rect x="0" y="0" width="55" height="30" rx="15" fill="#ffffff" fill-opacity="0.08" stroke="#00ADD8" stroke-opacity="0.55" stroke-width="1.2"/><text x="28" y="20" text-anchor="middle" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="15" fill="#e8ecf4">Gin</text></g>
+    <g transform="translate(179,232)"><rect x="0" y="0" width="121" height="30" rx="15" fill="#ffffff" fill-opacity="0.08" stroke="#00ADD8" stroke-opacity="0.55" stroke-width="1.2"/><text x="60" y="20" text-anchor="middle" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="15" fill="#e8ecf4">Prometheus</text></g>
+    <g transform="translate(312,232)"><rect x="0" y="0" width="93" height="30" rx="15" fill="#ffffff" fill-opacity="0.08" stroke="#00ADD8" stroke-opacity="0.55" stroke-width="1.2"/><text x="46" y="20" text-anchor="middle" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="15" fill="#e8ecf4">Swagger</text></g>
+    <g transform="translate(417,232)"><rect x="0" y="0" width="83" height="30" rx="15" fill="#ffffff" fill-opacity="0.08" stroke="#00ADD8" stroke-opacity="0.55" stroke-width="1.2"/><text x="42" y="20" text-anchor="middle" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="15" fill="#e8ecf4">Docker</text></g>
+</svg>

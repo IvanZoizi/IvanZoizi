@@ -1,0 +1,42 @@
+<svg viewBox="0 0 800 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#141a28"/>
+      <stop offset="1" stop-color="#0c111b"/>
+    </linearGradient>
+    <linearGradient id="acc" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8A5CF6"/>
+      <stop offset="1" stop-color="#8A5CF6" stop-opacity="0.65"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="300" rx="18" fill="url(#bg)"/>
+  <rect width="800" height="300" rx="18" fill="none" stroke="#ffffff" stroke-opacity="0.07" stroke-width="2"/>
+
+  <!-- watermark initial -->
+  <text x="760" y="276" text-anchor="end" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-weight="bold"
+        font-size="230" fill="#8A5CF6" fill-opacity="0.08">P</text>
+
+  <!-- accent bar -->
+  <rect x="26" y="34" width="8" height="232" rx="4" fill="url(#acc)"/>
+
+  <!-- lang chip -->
+  <g transform="translate(54,44)">
+    <rect x="0" y="0" width="88" height="28" rx="14" fill="#8A5CF6" fill-opacity="0.16" stroke="#8A5CF6" stroke-opacity="0.6" stroke-width="1.2"/>
+    <circle cx="18" cy="14" r="5" fill="#8A5CF6"/>
+    <text x="30" y="19" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" fill="#e8ecf4">Python</text>
+  </g>
+
+  <!-- title -->
+  <text x="54" y="138" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-weight="bold" font-size="42" fill="#f4f7fc">PinVinHack</text>
+  <rect x="56" y="152" width="120" height="5" rx="2.5" fill="#8A5CF6"/>
+
+  <!-- tagline -->
+  <text x="54" y="190" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="20" fill="#aeb8c8">AI call-analytics API &amp; dashboard</text>
+
+  <!-- tags -->
+  <g transform="translate(54,232)"><rect x="0" y="0" width="93" height="30" rx="15" fill="#ffffff" fill-opacity="0.08" stroke="#8A5CF6" stroke-opacity="0.55" stroke-width="1.2"/><text x="46" y="20" text-anchor="middle" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="15" fill="#e8ecf4">FastAPI</text></g>
+    <g transform="translate(159,232)"><rect x="0" y="0" width="83" height="30" rx="15" fill="#ffffff" fill-opacity="0.08" stroke="#8A5CF6" stroke-opacity="0.55" stroke-width="1.2"/><text x="42" y="20" text-anchor="middle" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="15" fill="#e8ecf4">Pandas</text></g>
+    <g transform="translate(254,232)"><rect x="0" y="0" width="83" height="30" rx="15" fill="#ffffff" fill-opacity="0.08" stroke="#8A5CF6" stroke-opacity="0.55" stroke-width="1.2"/><text x="42" y="20" text-anchor="middle" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="15" fill="#e8ecf4">OpenAI</text></g>
+    <g transform="translate(349,232)"><rect x="0" y="0" width="83" height="30" rx="15" fill="#ffffff" fill-opacity="0.08" stroke="#8A5CF6" stroke-opacity="0.55" stroke-width="1.2"/><text x="42" y="20" text-anchor="middle" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="15" fill="#e8ecf4">ffmpeg</text></g>
+</svg>
